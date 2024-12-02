@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;  
+  
+}
+.SEDANS{
+    background-color: #ff9e03;
+    float: left;
+    width: 15%;
+    padding: 15px;
+    height: auto;
+    
+}
+.SUVS{
+    background-color: #1a5276 ;
+    float: left;
+    width: 15%;
+    padding: 15px;
+    height: auto;
+}
+.LUXURY{
+    background-color: #0b5345;
+    float:left; 
+    width: 15%;
+    padding: 15px;
+    height: auto;
+}
+h2,p{
+    color: white;
+  
+}
+button{
+    margin-top: 100px ;
+    /* border: 1px solid transparent; */
+    border: none;
+    border-radius: 15px ;
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 15px ;
+    -ms-border-radius: 15px ;
+    -o-border-radius: 15px ;
+    width: 20%px;
+    height: 30px;
+}
+.SEDANS button{
+    color: #ff9e03;
+}
+.SUVS button{
+    color: #1a5276;
+}
+.LUXURY button{
+    color: #0b5345;
+}
+.clear{
+    clear: both;
+}
